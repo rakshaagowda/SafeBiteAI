@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Save as assets/ai-workflow.svg -->
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 260" width="900" height="260" role="img" aria-label="SafeBite AI workflow">
+<!-- Save as frontend/assets/ai-workflow.svg -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 280" width="940" height="280" role="img" aria-label="SafeBiteAI Workflow">
   <defs>
     <linearGradient id="g" x1="0" x2="1">
       <stop offset="0" stop-color="#6EE7B7"/>
       <stop offset="1" stop-color="#60A5FA"/>
     </linearGradient>
     <style>
-      .title { font: 600 20px/1.1 "Segoe UI", Roboto, Arial; fill:#0f172a; }
+      .title { font: 600 22px/1.2 "Segoe UI", Roboto, Arial; fill:#0f172a; }
       .label { font: 500 14px/1 "Segoe UI", Roboto, Arial; fill:#0f172a; }
       .node { stroke: #0f172a33; stroke-width: 1.5; filter: drop-shadow(0 4px 8px #00000010); }
       .pulse { fill: url(#g); opacity: .95; }
@@ -20,64 +20,64 @@
   </defs>
 
   <!-- Title -->
-  <text x="28" y="28" class="title">SafeBiteAI — Animated Workflow</text>
+  <text x="50%" y="36" text-anchor="middle" class="title">SafeBiteAI — Workflow Visualization</text>
 
-  <!-- Nodes -->
-  <!-- Upload -->
-  <g transform="translate(40,60)">
-    <rect x="0" y="0" width="200" height="120" rx="12" class="node" fill="#ffffff"/>
-    <g transform="translate(18,20)">
+  <!-- Upload Node -->
+  <g transform="translate(60,80)">
+    <rect width="220" height="120" rx="12" class="node" fill="#ffffff"/>
+    <g transform="translate(20,20)">
       <circle cx="20" cy="20" r="20" class="pulse">
-        <animate attributeName="r" values="20;26;20" dur="2.2s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.95;0.65;0.95" dur="2.2s" repeatCount="indefinite" />
+        <animate attributeName="r" values="20;26;20" dur="2.2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.95;0.65;0.95" dur="2.2s" repeatCount="indefinite"/>
       </circle>
-      <g transform="translate(48,2)">
+      <g transform="translate(52,3)">
         <text class="label" x="0" y="18">1. Upload / Capture</text>
         <text class="label" x="0" y="38" style="font-size:12px;fill:#334155">Image, report, or form</text>
       </g>
     </g>
   </g>
 
-  <!-- Classifier -->
-  <g transform="translate(320,60)">
-    <rect x="0" y="0" width="220" height="120" rx="12" class="node" fill="#ffffff"/>
-    <g transform="translate(18,20)">
+  <!-- Classifier Node -->
+  <g transform="translate(360,80)">
+    <rect width="220" height="120" rx="12" class="node" fill="#ffffff"/>
+    <g transform="translate(20,20)">
       <circle cx="20" cy="20" r="20" class="pulse">
-        <animate attributeName="r" values="20;24;20" dur="1.8s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.95;0.6;0.95" dur="1.8s" repeatCount="indefinite" />
+        <animate attributeName="r" values="20;24;20" dur="1.8s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.95;0.6;0.95" dur="1.8s" repeatCount="indefinite"/>
       </circle>
-      <g transform="translate(48,2)">
+      <g transform="translate(52,3)">
         <text class="label" x="0" y="18">2. CNN Classifier</text>
-        <text class="label" x="0" y="38" style="font-size:12px;fill:#334155">Food recognition (TensorFlow/Keras)</text>
+        <text class="label" x="0" y="38" style="font-size:12px;fill:#334155">Food recognition (TensorFlow / Keras)</text>
       </g>
     </g>
   </g>
 
-  <!-- Predictor -->
-  <g transform="translate(620,60)">
-    <rect x="0" y="0" width="220" height="120" rx="12" class="node" fill="#ffffff"/>
-    <g transform="translate(18,20)">
+  <!-- Predictor Node -->
+  <g transform="translate(660,80)">
+    <rect width="220" height="120" rx="12" class="node" fill="#ffffff"/>
+    <g transform="translate(20,20)">
       <circle cx="20" cy="20" r="20" class="pulse">
-        <animate attributeName="r" values="20;28;20" dur="2.6s" repeatCount="indefinite" />
-        <animate attributeName="opacity" values="0.95;0.5;0.95" dur="2.6s" repeatCount="indefinite" />
+        <animate attributeName="r" values="20;28;20" dur="2.6s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="0.95;0.5;0.95" dur="2.6s" repeatCount="indefinite"/>
       </circle>
-      <g transform="translate(48,2)">
-        <text class="label" x="0" y="18">3. Risk &amp; Health Predictor</text>
+      <g transform="translate(52,3)">
+        <text class="label" x="0" y="18">3. Risk & Health Predictor</text>
         <text class="label" x="0" y="38" style="font-size:12px;fill:#334155">Weekly analytics • Symptom correlation</text>
       </g>
     </g>
   </g>
 
-  <!-- Arrows -->
-  <path class="arrow" d="M240,120 L320,120" />
-  <path class="arrow" d="M540,120 L620,120" />
+  <!-- Connecting Arrows -->
+  <path class="arrow" d="M280,140 L360,140"/>
+  <path class="arrow" d="M580,140 L660,140"/>
 
-  <!-- Bottom: actions -->
-  <g transform="translate(40,190)">
-    <rect x="0" y="0" width="820" height="44" rx="10" fill="#f8fafc" stroke="#0f172a11" />
-    <text x="18" y="28" class="label">Outputs → Suggestions / Avoid list / Medication mapping / Medical report storage</text>
-    <!-- subtle moving dots to show activity -->
-    <g transform="translate(660,8)">
+  <!-- Output Section -->
+  <g transform="translate(60,220)">
+    <rect width="820" height="44" rx="10" fill="#f8fafc" stroke="#0f172a11"/>
+    <text x="20" y="28" class="label">Outputs → Suggestions / Avoid list / Medication mapping / Medical report storage</text>
+
+    <!-- Animated Activity Dots -->
+    <g transform="translate(680,8)">
       <circle cx="0" cy="10" r="4" fill="#60A5FA">
         <animate attributeName="r" values="4;8;4" dur="1.6s" repeatCount="indefinite" begin="0s"/>
       </circle>
@@ -90,6 +90,8 @@
     </g>
   </g>
 
-  <!-- Footer hint -->
-  <text x="28" y="260" class="label" style="font-size:11px;fill:#6b7280">Tip: Place this SVG at docs or frontend/assets and embed in README with `![AI Workflow](path/to/ai-workflow.svg)`</text>
+  <!-- Footer -->
+  <text x="50%" y="272" text-anchor="middle" class="label" style="font-size:11px;fill:#6b7280">
+    Tip: Place this SVG at frontend/assets and embed in README with ![AI Workflow](frontend/assets/ai-workflow.svg)
+  </text>
 </svg>
