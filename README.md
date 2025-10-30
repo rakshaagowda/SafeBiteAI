@@ -9,10 +9,10 @@
 ### 🧠 About the Project
 
 **SafeBiteAI** is an intelligent **food-safety and health-monitoring system** powered by AI.  
-It analyzes your **food intake**, **medical data**, and **environmental factors** to predict health risks, unsafe food combinations, and dietary imbalances.  
+It analyzes your **food intake**, **medical data**, and **environmental factors** to predict health risks, unsafe food combinations, and dietary imbalances.
 
 If a user gets sick and logs abnormal symptoms, the model predicts the **possible cause** based on previous food history — helping them **avoid harmful food or combinations** in the future.  
-It also keeps track of the user's **weekly health metrics** like blood sugar and electrolyte balance — indicators essential to body regulation.  
+It also keeps track of the user's **weekly health metrics** like blood sugar and electrolyte balance — essential indicators of body regulation.  
 Additionally, the system can **read and track medical reports** (uploaded via form or OCR scan) for holistic health monitoring.
 
 ---
@@ -30,14 +30,22 @@ Additionally, the system can **read and track medical reports** (uploaded via fo
 
 ### 🔄 Workflow Overview
 
-```mermaid
-graph TD
-A[👤 User Inputs Meals + Symptoms] --> B[💾 Data stored in MongoDB (7-day log)]
-B --> C[🧠 TensorFlow/Keras Model Analyzes Patterns]
-C --> D[⚕️ Predicts Possible Food-based Causes of Illness]
-D --> E[📊 Health Condition Estimation (Blood Sugar, Electrolytes, etc.)]
-E --> F[📋 Medical Report Scan (Form Input + OCR Analysis)]
-F --> G[🤖 FastAPI Backend Aggregates Results]
-G --> H[🌤️ Weather + Spoonacular + OpenAI APIs]
-H --> I[🌐 React Frontend Displays Personalized Insights]
+<p align="center">
+  <img src="assets/aiworkflow.svg" width="85%" alt="AI Workflow Diagram">
+</p>
+
+---
+
+### 🧩 Key Features
+
+- 🍱 **Meal + Symptom Logging** — Tracks what you eat and how you feel.
+- 🤖 **AI Analysis (TensorFlow/Keras)** — Learns from your data and predicts causes of illness.
+- 🧬 **Health Metric Estimation** — Calculates patterns like blood sugar or electrolyte balance.
+- 📄 **Medical Report Integration** — Uses OCR to extract health data from reports.
+- ⚙️ **FastAPI + MongoDB Backend** — Secure, scalable, and fast.
+- 🌐 **Smart Insights Dashboard** — Interactive frontend built with React + Tailwind.
+
+---
+
+
 
