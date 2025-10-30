@@ -30,8 +30,14 @@ Additionally, the system can **read and track medical reports** (uploaded via fo
 
 ### 🔄 Workflow Overview
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/ai-workflow.svg" width="85%" alt="AI Workflow Diagram">
+</p> -->
+### 🔄 Workflow Overview
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/rakshaagowda/SafeBiteAI/main/assets/ai-workflow.svg" 
+       alt="SafeBiteAI Animated Workflow" width="850"/>
 </p>
 
 ---
