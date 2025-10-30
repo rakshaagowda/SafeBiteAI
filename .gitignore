@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+venv/
+*.h5
+*.keras
+*.zip
+uploads/
+data/
+
+# Node
+node_modules/
+dist/
+.env
+
+# VSCode
+.vscode/

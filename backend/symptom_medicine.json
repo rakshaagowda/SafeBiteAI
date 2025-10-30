@@ -1,0 +1,216 @@
+{
+  "stomach_pain": {
+    "medicines": [
+      {"name": "Gelusil Antacid", "type": "OTC", "note": "Take after meals if discomfort persists"},
+      {"name": "Domperidone", "type": "OTC", "note": "Reduces nausea, use as recommended"}
+    ],
+    "home_remedies": ["Warm water with ginger", "Boiled rice or khichdi", "Avoid oily foods for 24 hours"]
+  },
+  "nausea": {
+    "medicines": [
+      {"name": "Ondansetron", "type": "OTC", "note": "For mild nausea"},
+      {"name": "Dimenhydrinate", "type": "OTC", "note": "Helps with motion sickness or food-related nausea"}
+    ],
+    "home_remedies": ["Sip ginger tea slowly", "Eat dry toast or crackers", "Stay hydrated"]
+  },
+  "acidity": {
+    "medicines": [
+      {"name": "Ranitidine", "type": "OTC", "note": "Short-term relief"},
+      {"name": "Omeprazole", "type": "OTC", "note": "Proton pump inhibitor"}
+    ],
+    "home_remedies": ["Avoid spicy and oily foods", "Drink warm water", "Eat small frequent meals"]
+  },
+  "headache": {
+    "medicines": [
+      {"name": "Paracetamol", "type": "OTC", "note": "Use recommended dosage"},
+      {"name": "Ibuprofen", "type": "OTC", "note": "Take after meals to avoid stomach upset"}
+    ],
+    "home_remedies": ["Drink water", "Rest in quiet, dark room", "Cold compress to forehead"]
+  },
+  "fever": {
+    "medicines": [
+      {"name": "Paracetamol", "type": "OTC", "note": "Monitor temperature regularly"},
+      {"name": "Ibuprofen", "type": "OTC", "note": "Use with caution if stomach sensitive"}
+    ],
+    "home_remedies": ["Drink warm fluids", "Light meals or soups", "Rest"]
+  },
+  "diarrhea": {
+    "medicines": [
+      {"name": "ORS", "type": "OTC", "note": "Rehydrates body"},
+      {"name": "Loperamide", "type": "OTC", "note": "For adults, use only if recommended"}
+    ],
+    "home_remedies": ["Drink plenty of fluids", "Eat bananas and rice", "Avoid dairy and fatty foods"]
+  },
+  "constipation": {
+    "medicines": [
+      {"name": "Docusate Sodium", "type": "OTC", "note": "Stool softener"},
+      {"name": "Senna", "type": "OTC", "note": "Use occasionally"}
+    ],
+    "home_remedies": ["Drink warm water", "Eat fiber-rich foods", "Exercise regularly"]
+  },
+  "cough": {
+    "medicines": [
+      {"name": "Dextromethorphan", "type": "OTC", "note": "Suppresses cough"},
+      {"name": "Guaifenesin", "type": "OTC", "note": "Helps clear mucus"}
+    ],
+    "home_remedies": ["Honey with warm water", "Steam inhalation", "Avoid cold drinks"]
+  },
+  "sore_throat": {
+    "medicines": [
+      {"name": "Lozenges", "type": "OTC", "note": "Soothes throat"},
+      {"name": "Paracetamol", "type": "OTC", "note": "For pain relief"}
+    ],
+    "home_remedies": ["Gargle with salt water", "Warm fluids like tea", "Honey and lemon in warm water"]
+  },
+  "cold": {
+    "medicines": [
+      {"name": "Paracetamol", "type": "OTC", "note": "For fever and body pain"},
+      {"name": "Antihistamines", "type": "OTC", "note": "Helps with runny nose and sneezing"}
+    ],
+    "home_remedies": ["Steam inhalation", "Warm fluids", "Rest"]
+  },
+  "back_pain": {
+    "medicines": [
+      {"name": "Ibuprofen", "type": "OTC", "note": "Take with food"},
+      {"name": "Paracetamol", "type": "OTC", "note": "Mild pain relief"}
+    ],
+    "home_remedies": ["Apply warm/cold compress", "Stretch gently", "Avoid heavy lifting"]
+  },
+  "muscle_pain": {
+    "medicines": [
+      {"name": "Ibuprofen", "type": "OTC", "note": "Reduces inflammation"},
+      {"name": "Paracetamol", "type": "OTC", "note": "For mild pain"}
+    ],
+    "home_remedies": ["Rest", "Warm compress", "Gentle stretching"]
+  },
+  "allergy": {
+    "medicines": [
+      {"name": "Cetirizine", "type": "OTC", "note": "Relieves mild allergic symptoms"},
+      {"name": "Loratadine", "type": "OTC", "note": "Non-drowsy antihistamine"}
+    ],
+    "home_remedies": ["Avoid allergens", "Saline nasal rinse", "Keep surroundings clean"]
+  },
+  "dizziness": {
+    "medicines": [
+      {"name": "Meclizine", "type": "OTC", "note": "Helps with motion-related dizziness"}
+    ],
+    "home_remedies": ["Sit/lie down immediately", "Hydrate", "Avoid sudden movements"]
+  },
+  "fatigue": {
+    "medicines": [
+      {"name": "Multivitamins", "type": "OTC", "note": "If vitamin deficiency suspected"}
+    ],
+    "home_remedies": ["Proper sleep", "Hydration", "Balanced diet"]
+  },
+  "vomiting": {
+    "medicines": [
+      {"name": "Ondansetron", "type": "OTC", "note": "For mild vomiting"},
+      {"name": "Dimenhydrinate", "type": "OTC", "note": "If motion sickness related"}
+    ],
+    "home_remedies": ["Sip clear fluids slowly", "Eat bland foods", "Avoid strong odors"]
+  },
+  "loss_of_appetite": {
+    "medicines": [
+      {"name": "Multivitamins", "type": "OTC", "note": "If deficiency suspected"}
+    ],
+    "home_remedies": ["Small frequent meals", "Light soups", "Hydration"]
+  },
+  "heartburn": {
+    "medicines": [
+      {"name": "Antacids", "type": "OTC", "note": "Relieve mild heartburn"},
+      {"name": "Omeprazole", "type": "OTC", "note": "Proton pump inhibitor"}
+    ],
+    "home_remedies": ["Avoid spicy and fatty foods", "Eat small meals", "Do not lie down immediately after eating"]
+  },
+  "rash": {
+    "medicines": [
+      {"name": "Hydrocortisone cream", "type": "OTC", "note": "Topical application for mild rashes"},
+      {"name": "Antihistamines", "type": "OTC", "note": "For itchy rashes"}
+    ],
+    "home_remedies": ["Cool compress", "Avoid scratching", "Keep area clean"]
+  },
+  "acne": {
+    "medicines": [
+      {"name": "Benzoyl Peroxide", "type": "OTC", "note": "Topical treatment"},
+      {"name": "Salicylic Acid", "type": "OTC", "note": "Topical treatment"}
+    ],
+    "home_remedies": ["Gentle face wash", "Avoid oily foods", "Do not squeeze pimples"]
+  },
+  "eye_irritation": {
+    "medicines": [
+      {"name": "Artificial tears", "type": "OTC", "note": "Lubricates eyes"},
+      {"name": "Antihistamine eye drops", "type": "OTC", "note": "For allergy-related irritation"}
+    ],
+    "home_remedies": ["Cold compress", "Avoid rubbing eyes", "Rest eyes frequently"]
+  },
+  "menstrual_cramps": {
+    "medicines": [
+      {"name": "Ibuprofen", "type": "OTC", "note": "Take with food"},
+      {"name": "Paracetamol", "type": "OTC", "note": "For mild pain"}
+    ],
+    "home_remedies": ["Warm compress on abdomen", "Light exercise", "Hydration"]
+  },
+  "cold_sores": {
+    "medicines": [
+      {"name": "Acyclovir cream", "type": "OTC", "note": "Topical antiviral"},
+      {"name": "Docosanol", "type": "OTC", "note": "Reduces healing time"}
+    ],
+    "home_remedies": ["Avoid touching sores", "Keep area clean", "Use lip balm for moisture"]
+  },
+  "joint_pain": {
+    "medicines": [
+      {"name": "Ibuprofen", "type": "OTC", "note": "Take after meals"},
+      {"name": "Paracetamol", "type": "OTC", "note": "Mild pain relief"}
+    ],
+    "home_remedies": ["Gentle stretching", "Warm compress", "Avoid heavy lifting"]
+  },
+  "throat_infection": {
+    "medicines": [
+      {"name": "Paracetamol", "type": "OTC", "note": "Pain relief"},
+      {"name": "Lozenges", "type": "OTC", "note": "Soothe throat"}
+    ],
+    "home_remedies": ["Salt water gargle", "Warm fluids", "Honey with lemon"]
+  },
+  "fever_with_chills": {
+    "medicines": [
+      {"name": "Paracetamol", "type": "OTC", "note": "Monitor temperature"},
+      {"name": "Ibuprofen", "type": "OTC", "note": "Use cautiously if stomach sensitive"}
+    ],
+    "home_remedies": ["Hydrate", "Light meals", "Rest"]
+  },
+  "minor_injuries": {
+    "medicines": [
+      {"name": "Antiseptic cream", "type": "OTC", "note": "Apply to cuts/scrapes"},
+      {"name": "Pain relievers", "type": "OTC", "note": "Paracetamol/Ibuprofen for pain"}
+    ],
+    "home_remedies": ["Clean wound with water", "Cover with sterile bandage", "Rest affected area"]
+  },
+
+  "insomnia": {
+    "medicines": [
+      {"name": "Melatonin", "type": "OTC", "note": "Use low dose before sleep"},
+      {"name": "Diphenhydramine", "type": "OTC", "note": "Short-term sleep aid"}
+    ],
+    "home_remedies": ["Avoid caffeine after 2 PM", "Maintain regular sleep schedule", "Meditation or deep breathing"]
+  },
+  "low_blood_sugar": {
+    "medicines": [{"name":"Glucose tablets","type":"OTC","note":"Use during hypoglycemia"}],
+    "home_remedies": ["Eat small frequent meals", "Carry snacks", "Monitor sugar levels"]
+  },
+  "nosebleed": {
+    "medicines": [{"name":"Oxymetazoline spray","type":"OTC","note":"Use as directed"}],
+    "home_remedies": ["Pinch nose and lean forward", "Apply cold compress", "Avoid nose picking"]
+  },
+  "ear_pain": {
+    "medicines": [{"name":"Ibuprofen","type":"OTC","note":"Take after meals"}],
+    "home_remedies": ["Warm compress on ear", "Avoid water in ear", "Rest"]
+  },
+  "toothache": {
+    "medicines": [{"name":"Paracetamol","type":"OTC","note":"For pain relief"}],
+    "home_remedies": ["Salt water rinse", "Cold compress", "Visit dentist"]
+  },
+  "hair_loss": {
+    "medicines": [{"name":"Biotin","type":"OTC","note":"If deficiency suspected"}],
+    "home_remedies": ["Balanced diet", "Avoid harsh chemicals", "Gentle scalp massage"]
+  }
+}
