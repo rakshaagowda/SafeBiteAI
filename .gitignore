@@ -1,17 +1,20 @@
-# Python
-__pycache__/
-*.pyc
+# Large dataset at root
+/food-101/
+/food-101.zip
+# Environment and dependencies
 venv/
-*.h5
-*.keras
-*.zip
-uploads/
-data/
-
-# Node
+__pycache__/
 node_modules/
-dist/
 .env
 
-# VSCode
-.vscode/
+# Large assets
+backend/models/
+backend/data/
+uploads/
+*.h5
+*.zip
+*.csv
+
+# OS files
+.DS_Store
+Thumbs.db

@@ -50,6 +50,11 @@ Additionally, the system can **read and track medical reports** (uploaded via fo
 - 📄 **Medical Report Integration** — Uses OCR to extract health data from reports.
 - ⚙️ **FastAPI + MongoDB Backend** — Secure, scalable, and fast.
 - 🌐 **Smart Insights Dashboard** — Interactive frontend built with React + Tailwind.
+## 📦 Dataset
+The Food-101 dataset is not included in this repository due to its large size.
+Download it manually from [Food-101 official site](https://data.vision.ee.ethz.ch/cvl/food-101.tar.gz)
+and extract it under the project root as:
+food-101/
 
 ---
 
